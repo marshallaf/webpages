@@ -1,0 +1,82 @@
+#quote {
+	font-family: 'PT Serif', serif;
+	font-size: 2em;
+}
+
+body {
+	background-color: black;
+	height: 100%;
+}
+
+#face {
+	width: 300px;
+	height: auto;
+}
+
+#quotebox {
+	color: #f2f2f2;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#hpbax {
+	padding-top: 15px;
+	text-align: right;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+html {
+	height: 100%;
+}
+
+#facebox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media only screen and (min-width : 992px) {
+	#row-quote {
+		height: 435px;
+	}
+}
+
+.btn {
+	border: 4px solid #f2f2f2;
+	color: #f2f2f2;
+	background-color: black;
+	font-weight: bold;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	color: #f2f2f2;
+	background-color: black;
+	/*font-weight: bold;*/
+}
+
+.btn:hover, .btn:active {
+    background: #404040;
+    color: #f2f2f2;
+}
+
+.button-area {
+	margin: 15px auto;
+}
+
+.credits {
+	text-align: center;
+	color: #404040;
+	font-size: .75em;
+}
+
+.credits a {
+	color: #404040;
+}
